@@ -1,0 +1,294 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Subscribe</title>
+    <link rel="stylesheet" href="/blog.css">
+</head>
+  <body>
+    <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
+        <symbol id="check" viewBox="0 0 16 16">
+          <title>Check</title>
+          <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"></path>
+        </symbol>
+    </svg>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom ">
+          <div class="container-fluid mx-4">
+            <a class="navbar-brand fs-2 fw-bold logo p-0 m-0" href="#"><span class="fs-1 fw-bold"><span class="fs-1 fw-bold text-success">T</span>ech<span class="fs-1 fw-bold text-success">B</span>log</a>
+            <div class="text-end me-5 d-none d-lg-block">
+              <button type="button" class="btn btn-outline-success text-dark border border-2 fw-bold me-2 shadow-none">Login</button>
+              <button type="button" class="btn btn- border border-2 bg-success fw-bold dim-on-hover shadow-none">Sign Up</button>
+            </div>
+            <button class="navbar-toggler shadow-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            
+          <!-- offcancvas -->
+            <div class="offcanvas offcanvas-start bg-light" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title text-dark m-2  " id="offcanvasDarkNavbarLabel"><span class="fs-1 fw-bold text-success">T</span>ech<span class="fs-1 fw-bold text-success">B</span>log</h5>
+                <button type="button" class="btn-close btn-close-dark m-2  " data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="text-center">
+                <button type="button" class="btn btn-outline-success text-dark border border-2 fw-bold me-2 shadow-none">Login</button>
+                <button type="button" class="btn btn- border border-2 bg-success fw-bold dim-on-hover shadow-none">Sign Up</button>
+              </div>
+              <div class="offcanvas-body">
+      
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active text-dark m-2  p-1  offset-item " aria-current="page" href="/index.html">Home </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-dark m-2 p-1 header-nav-item offset-item " href="#">World</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-dark m-2  p-1 header-nav-item offset-item " href="#">India</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link  text-dark m-2 p-1 header-nav-item offset-item " href="#">About</a>
+                  </li>
+                  
+                  <li class="nav-item">
+                    <a class="nav-link  active text-dark m-2  p-1 border-bottom border-2  border-success" aria-current="page" href="#">Subscribe</a>
+                </li>
+                </ul>
+                <form class="d-flex mt-3 shadow-none" role="search">
+                  <input class="form-control me-2 rounded-pill bg-light shadow-none" type="search" placeholder="Search" aria-label="Search">
+                </form>
+                
+              </div>
+            </div>
+          </div>
+        </nav> 
+    
+      </header>
+      
+      <!-- nav 2 -->
+  
+     
+      <nav class=" navbar navbar-expand-lg navbar-light bg-light p-0 m-0 bg-white bg-white border-bottom justify-content-center">
+         
+           <div class="container-fluid mx-5 p-0 mx-lg-4 my-2 my-lg-0 d-flex justify-content-between mx-0">
+              <ul class="nav justify-content-start ">
+                <li class="nav-item">
+                  <a class="nav-link  text-dark m-2 p-1 header-nav-item"  href="/index.html">Home </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link  text-dark m-2 p-1 header-nav-item" href="/posts/world.html">World</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link  text-dark m-2  p-1 header-nav-item" href="/posts/india.html">India</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link   text-dark m-2 p-1 header-nav-item " href="/posts/about.html">About</a>
+                </li>
+               
+                <li class="nav-item">
+                    <a class="nav-link  active text-dark m-2  p-1 border-bottom border-2  border-success" aria-current="page" href="#">Subscribe</a>
+                </li>
+              </ul>
+      
+              <form class="my-auto shadow-none d-none d-md-block ">
+                <input type="search" class="form-control form-control-dark shadow-none border-1 bg-light rounded-pill " placeholder="Search..." aria-label="Search">
+              </form>
+              <form class="my-auto shadow-none d-md-none">
+                <i class="" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                  <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+                </svg></i>
+  
+                <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+                  <div class="offcanvas-header">
+                    <h5 id="offcanvasTopLabel">Search</h5>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                  </div>
+                  <div class="offcanvas-body">
+                    <input type="search" class="form-control form-control-dark shadow-none border-1 bg-light rounded-pill " placeholder="Search..." aria-label="Search">
+                  </div>
+                </div>
+              </form>
+           </div>
+      </nav>
+    
+      <!-- content -->
+      <div class="container py-3">
+        <main>
+          <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+            <div class="col">
+              <div class="card mb-4 rounded-3 shadow-sm">
+                <div class="card-header py-3">
+                  <h4 class="my-0 fw-normal">Free</h4>
+                </div>
+                <div class="card-body">
+                  <h1 class="card-title pricing-card-title">$0<small class="text-body-secondary fw-light">/mo</small></h1>
+                  <ul class="list-unstyled mt-3 mb-4">
+                    <li>10 users included</li>
+                    <li>2 GB of storage</li>
+                    <li>Email support</li>
+                    <li>Help center access</li>
+                  </ul>
+                  <button type="button" class="w-100 btn btn-lg btn-outline-success">Sign up for free</button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card mb-4 rounded-3 shadow-sm">
+                <div class="card-header py-3">
+                  <h4 class="my-0 fw-normal">Pro</h4>
+                </div>
+                <div class="card-body">
+                  <h1 class="card-title pricing-card-title">$15<small class="text-body-secondary fw-light">/mo</small></h1>
+                  <ul class="list-unstyled mt-3 mb-4">
+                    <li>20 users included</li>
+                    <li>10 GB of storage</li>
+                    <li>Priority email support</li>
+                    <li>Help center access</li>
+                  </ul>
+                  <button type="button" class="w-100 btn btn-lg btn-success">Get started</button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card mb-4 rounded-3 shadow-sm border-primary">
+                <div class="card-header py-3 text-bg-primary border-primary">
+                  <h4 class="my-0 fw-normal">Enterprise</h4>
+                </div>
+                <div class="card-body">
+                  <h1 class="card-title pricing-card-title">$29<small class="text-body-secondary fw-light">/mo</small></h1>
+                  <ul class="list-unstyled mt-3 mb-4">
+                    <li>30 users included</li>
+                    <li>15 GB of storage</li>
+                    <li>Phone and email support</li>
+                    <li>Help center access</li>
+                  </ul>
+                  <button type="button" class="w-100 btn btn-lg btn-success">Contact us</button>
+                </div>
+              </div>
+            </div>
+          </div>
+      
+          <h2 class="display-6 text-center mb-4">Compare plans</h2>
+      
+          <div class="table-responsive">
+            <table class="table text-center">
+              <thead>
+                <tr>
+                  <th style="width: 34%;"></th>
+                  <th style="width: 22%;">Free</th>
+                  <th style="width: 22%;">Pro</th>
+                  <th style="width: 22%;">Enterprise</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row" class="text-start">Public</th>
+                  <td><svg class="bi" width="24" height="24"><use xlink:href="#check"></use></svg></td>
+                  <td><svg class="bi" width="24" height="24"><use xlink:href="#check"></use></svg></td>
+                  <td><svg class="bi" width="24" height="24"><use xlink:href="#check"></use></svg></td>
+                </tr>
+                <tr>
+                  <th scope="row" class="text-start">Private</th>
+                  <td></td>
+                  <td><svg class="bi" width="24" height="24"><use xlink:href="#check"></use></svg></td>
+                  <td><svg class="bi" width="24" height="24"><use xlink:href="#check"></use></svg></td>
+                </tr>
+              </tbody>
+      
+              <tbody>
+                <tr>
+                  <th scope="row" class="text-start">Permissions</th>
+                  <td><svg class="bi" width="24" height="24"><use xlink:href="#check"></use></svg></td>
+                  <td><svg class="bi" width="24" height="24"><use xlink:href="#check"></use></svg></td>
+                  <td><svg class="bi" width="24" height="24"><use xlink:href="#check"></use></svg></td>
+                </tr>
+                <tr>
+                  <th scope="row" class="text-start">Sharing</th>
+                  <td></td>
+                  <td><svg class="bi" width="24" height="24"><use xlink:href="#check"></use></svg></td>
+                  <td><svg class="bi" width="24" height="24"><use xlink:href="#check"></use></svg></td>
+                </tr>
+                <tr>
+                  <th scope="row" class="text-start">Unlimited members</th>
+                  <td></td>
+                  <td><svg class="bi" width="24" height="24"><use xlink:href="#check"></use></svg></td>
+                  <td><svg class="bi" width="24" height="24"><use xlink:href="#check"></use></svg></td>
+                </tr>
+                <tr>
+                  <th scope="row" class="text-start">Extra security</th>
+                  <td></td>
+                  <td></td>
+                  <td><svg class="bi" width="24" height="24"><use xlink:href="#check"></use></svg></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </main>
+      
+        <footer class="pt-4 my-md-5 pt-md-5 border-top">
+          <div class="row">
+            <div class="col-12 col-md py-3">
+                <a class="navbar-brand text-dark p-0 py-3 m-0 fw-bold fs-3" href="#"><span class=" text-success">T</span>ech<span class="text-success">B</span>log</a>
+            </div>
+            <div class="col-4 col-md">
+              <h5>Features</h5>
+              <ul class="list-unstyled text-small">
+                <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Cool stuff</a></li>
+                <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Random feature</a></li>
+                <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Team feature</a></li>
+                <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Stuff for developers</a></li>
+                <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Another one</a></li>
+                <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Last time</a></li>
+              </ul>
+            </div>
+            <div class="col-4 col-md">
+              <h5>Resources</h5>
+              <ul class="list-unstyled text-small">
+                <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Resource</a></li>
+                <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Resource name</a></li>
+                <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Another resource</a></li>
+                <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Final resource</a></li>
+              </ul>
+            </div>
+            <div class="col-4 col-md">
+              <h5>About</h5>
+              <ul class="list-unstyled text-small">
+                <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Team</a></li>
+                <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Locations</a></li>
+                <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Privacy</a></li>
+                <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Terms</a></li>
+              </ul>
+            </div>
+          </div>
+        </footer>
+      </div>
+     
+    <footer class="bg-dark text-light py-4  position-relative">
+       
+        <div class="container">
+         
+            <p class="text-center align-items-center m-0">&copy; All Rights Reserved : 2023</p>
+            <a href="#"><button class="btn btn-outline-success 
+                position-absolute p-1 fw-light shadow-none" style="bottom: 15px; right: 30px;">Back to Top</button></a>
+             
+          
+      </div>
+     
+       
+        
+      </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    
+  </body>
+</html>

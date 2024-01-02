@@ -1,0 +1,94 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap'); /*font */
+
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', serif;
+}
+
+
+
+/* logo */
+
+.logo {
+  text-decoration: none;
+  border-bottom: 2px solid transparent; /* Transparent border initially */
+  transition: border-bottom 0.3s ease; /* Smooth transition effect */
+}
+
+.logo:hover {
+  border-bottom: 2px solid rgb(5, 99, 17); /* Solid border on hover */
+}
+/* header nav */
+.header-nav-item {
+  text-decoration: none;
+  border-bottom: 2px solid transparent; /* Transparent border initially */
+  transition: border-bottom 0.3s ease; /* Smooth transition effect */
+}
+
+.header-nav-item:hover {
+  border-bottom: 2px solid rgb(5, 99, 17); /* Solid border on hover */
+}
+/* subscribe btn */
+
+/* Keyframes for blink effect */
+@keyframes blink {
+  0% { background-color: transparent; } /* Start with transparent */
+  50% { background-color: rgb(31, 175, 201); clor: white; } /* Change to desired color */
+  100% { background-color: transparent; } /* Back to transparent */
+}
+
+/* Apply animation to the button */
+.startBlinking {
+  animation: blink 1s 2; 
+}
+
+/* offset item */
+
+.offset-item {
+  width: fit-content;
+}
+
+/* nav backgroud */
+.bg-darkgrey {
+  background-color: rgb(41, 40, 21);
+}
+
+/* sign up button */
+.dim-on-hover:hover{
+background-color: transparent !important;
+
+}
+
+/* title bg */
+
+.back-ground {
+  background-color: black;
+  background-image: url(https://techcrunch.com/wp-content/uploads/2023/06/GettyImages-1258742140.jpg?w=1390&crop=1);
+}
+
+/* font responsive-    heading */
+
+
+@media (max-width: 725.98px) {
+
+  .font-responsive {
+
+    font-size: 18px;
+
+  }
+}
+
+
+.container-cen {
+  height: 100vh;
+}
+
+.container11 {
+  flex: 1;
+}
+
+.centered-div{
+    align-items: center;
+}

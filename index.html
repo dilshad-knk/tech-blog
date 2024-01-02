@@ -1,0 +1,362 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link  href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2 /dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link  rel="stylesheet" href="blog.css">
+    <title>TechBlog</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom ">
+        <div class="container-fluid">
+          <a class="navbar-brand fs-2 fw-bold logo p-0 m-0" href="#"><span class="fs-1 fw-bold"><span class="fs-1 fw-bold text-success">T</span>ech<span class="fs-1 fw-bold text-success">B</span>log</a>
+          <div class="text-end me-5 d-none d-lg-block">
+            <button type="button" class="btn btn-outline-success text-dark border border-2 fw-bold me-2 shadow-none">Login</button>
+            <button type="button" class="btn btn- border border-2 bg-success fw-bold dim-on-hover shadow-none">Sign Up</button>
+          </div>
+          <button class="navbar-toggler shadow-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          
+        <!-- offcancvas -->
+          <div class="offcanvas offcanvas-start bg-light" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title text-dark m-2  " id="offcanvasDarkNavbarLabel"><span class="fs-1 fw-bold text-success">T</span>ech<span class="fs-1 fw-bold text-success">B</span>log</h5>
+              <button type="button" class="btn-close btn-close-dark m-2  " data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="text-center">
+              <button type="button" class="btn btn-outline-success text-dark border border-2 fw-bold me-2 shadow-none">Login</button>
+              <button type="button" class="btn btn- border border-2 bg-success fw-bold dim-on-hover shadow-none">Sign Up</button>
+            </div>
+            <div class="offcanvas-body">
+    
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active text-dark m-2  p-1 border-bottom border-2 border-success offset-item " aria-current="page" href="#">Home </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-dark m-2 p-1 header-nav-item offset-item " href="posts/world.html">World</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-dark m-2  p-1 header-nav-item offset-item " href="posts/world.html">India</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link  text-dark m-2 p-1 header-nav-item offset-item " href="posts/about.html">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-dark m-2 p-1 header-nav-item offset-item " href="posts/subscribe.html">Subscribe</a>
+                </li>
+              </ul>
+              <form class="d-flex mt-3 shadow-none" role="search">
+                <input class="form-control me-2 rounded-pill bg-light shadow-none" type="search" placeholder="Search" aria-label="Search">
+              </form>
+              
+            </div>
+          </div>
+        </div>
+      </nav> 
+  
+    </header>
+    
+    <!-- nav 2 -->
+
+   
+    <nav class=" navbar sticky-lg-top navbar-expand-lg navbar-light bg-light p-0 m-0 bg-white bg-white border-bottom justify-content-center">
+       
+         <div class="container-fluid mx-3 p-0 mx-lg-4 my-2 my-lg-0 d-flex  mx-0 ">
+            <ul class="nav w-100">
+              <li class="nav-item">
+                <a class="nav-link  active text-dark m-2  p-1 border-bottom border-2  border-success" aria-current="page" href="#">Home </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link  text-dark m-2 p-1 header-nav-item" href="posts/world.html">World</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link  text-dark m-2  p-1 header-nav-item" href="posts/world.html">India</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link text-dark m-2 p-1 header-nav-item " href="posts/about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link  text-dark m-2 p-1 header-nav-item" href="posts/subscribe.html">Subscribe</a>
+              </li>
+              <li class="nav-item mt-1 ms-auto">
+                <form class="shadow-none d-md-none p-2 ms-auto">
+                  <div class="">
+                    <i class="text-center" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">
+                      <i class="fas fa-search"></i>
+                    </i>
+                  </div>
+                 
+    
+                  <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+                    <div class="offcanvas-header">
+                      <h5 id="offcanvasTopLabel">Search</h5>
+                      <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                      <input type="search" class="form-control form-control-dark shadow-none border-1 bg-light rounded-pill " placeholder="Search..." aria-label="Search">
+                    </div>
+                  </div>
+                </form>
+              </li>
+            </ul>
+    
+            <form class="my-auto shadow-none d-none d-md-block ">
+              <input type="search" class="form-control form-control-dark shadow-none border-1 bg-light rounded-pill " placeholder="Search..." aria-label="Search">
+            </form>
+            
+         </div>
+    </nav>
+  
+ 
+    <!-- main content -->
+
+    <main class="m-4">
+      <div class="row p-4 p-md-5 mb-4 text-white rounded back-ground">
+        <div class="col-md-7 px-0">
+          <h1 class="display-4 fst-italic">Neuralink, Elon Musk’s brain implant startup, quietly raises an additional $43M</h1>
+          <p class="lead my-3">The filing published this week shows the company increased its previous tranche, led by Peter Thiel’s Founders Fund, from $280 million to $323 million in early August. Thirty-two investors participated, according to the filing....</p>
+          <p class="lead mb-0"><a href=posts/title.html" class="text-white fw-bold">Continue reading...</a></p>
+        </div>
+        
+      </div>
+      <div class="album py-5">
+        <div class="container">
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+            
+           
+            <div class="col">
+              <div class="card shadow-sm p-2 h-100">
+                <img class="bd-placeholder-img card-img-top img-fluid" width="100%" height="300" src="https://techcrunch.com/wp-content/uploads/2022/12/GettyImages-1356496030.jpg?w=430&h=230&crop=1" alt="img" />
+                <div class="card-body">
+                  <div class="d-flex flex-column justify-content-between h-100">
+                    <p class="card-text fw-bold">Okta admits hackers accessed data on all customers during recent breach...</p>
+                    <div class="d-flex justify-content-between align-items-centre">
+                     
+                      <small class="text-body-secondary my-auto">9 mins</small>
+                      <a href="posts/col-2.html">
+                        <button type="button" class="btn btn-sm btn-outline-success shadow-none">Read</button>
+  
+                      </a>
+                  </div>
+                  
+                 
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm p-2 h-100">
+                <img class="bd-placeholder-img card-img-top img-fluid" width="100%" height="300" src="https://techcrunch.com/wp-content/uploads/2023/11/Screenshot-2023-11-29-at-8.52.52-AM.png?w=430&h=230&crop=1" alt="img" />
+                <div class="card-body">
+                  <div class="d-flex flex-column justify-content-between h-100">
+                    <p class="card-text fw-bold">Together lands $102.5M investment to grow its cloud for training generative AI...
+                    </p>
+                    <div class="d-flex justify-content-between align-items-centre">
+                     
+                      <small class="text-body-secondary my-auto">9 mins</small>
+                      <a href="posts/col-3.html">
+                        <button type="button" class="btn btn-sm btn-outline-success shadow-none">Read</button>
+  
+                      </a>
+                  </div>
+                  
+                 
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm p-2 h-100">
+                <img class="bd-placeholder-img card-img-top img-fluid" width="100%" height="300" src="https://static.toiimg.com/thumb/resizemode-4,msid-105595618,imgsize-536812,width-400/105595618.jpg" alt="img" />
+                <div class="card-body">
+                  <div class="d-flex flex-column justify-content-between h-100">
+                    <p class="card-text fw-bold">Apple plans to break up with Goldman Sachs</p>
+                    <div class="d-flex justify-content-between align-items-centre">
+                     
+                      <small class="text-body-secondary my-auto">9 mins</small>
+                      <a href="posts/col-4.html">
+                        <button type="button" class="btn btn-sm btn-outline-success shadow-none">Read</button>
+  
+                      </a>
+                  </div>
+                  
+                 
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm p-2 h-100">
+                <img class="bd-placeholder-img card-img-top img-fluid" width="100%" height="300" src="https://techcrunch.com/wp-content/uploads/2021/03/GettyImages-1132893022.jpg?w=1390&crop=1" alt="img" />
+                <div class="card-body">
+                  <div class="d-flex flex-column justify-content-between h-100">
+                    <p class="card-text fw-bold">Prosus slashes valuation of India’s Byju’s below $3 billion...</p>
+                    <div class="d-flex justify-content-between align-items-centre">
+                     
+                      <small class="text-body-secondary my-auto">9 mins</small>
+                      <a href="posts/col-1.html">
+                        <button type="button" class="btn btn-sm btn-outline-success shadow-none">Read</button>
+  
+                      </a>
+                  </div>
+                  
+                 
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm p-2 h-100">
+                <img class="bd-placeholder-img card-img-top img-fluid" width="100%" height="300" src="https://img.etimg.com/thumb/msid-105566671,imgsize-781182,width-326,height-244/bharatpe-interim-ceo-details-bounce-back-plans-hinduja-tech-plans-minority-stake-sale.jpg" alt="img" />
+                <div class="card-body">
+                  <div class="d-flex flex-column justify-content-between h-100">
+                    <p class="card-text fw-bold">BharatPe interim CEO details bounce back plans; Hinduja Tech plans minority stake sale</p>
+                    <div class="d-flex justify-content-between align-items-centre">
+                     
+                      <small class="text-body-secondary my-auto">9 mins</small>
+                      <a href="posts/col-5.html">
+                        <button type="button" class="btn btn-sm btn-outline-success shadow-none">Read</button>
+  
+                      </a>
+                  </div>
+                  
+                 
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm p-2 h-100">
+                <img class="bd-placeholder-img card-img-top img-fluid" width="100%" height="300" src="https://techcrunch.com/wp-content/uploads/2023/11/GettyImages-1222818547.jpg?w=1390&crop=1" alt="img" />
+                <div class="card-body">
+                  <div class="d-flex flex-column justify-content-between h-100">
+                    <p class="card-text fw-bold">Wind.app makes DeFi accessible to the average consumer  with Wind.app, a self-custodial, smart contract wallet with three main features...</p>
+                    <div class="d-flex justify-content-between align-items-centre">
+                     
+                      <small class="text-body-secondary my-auto">9 mins</small>
+                      <a href="posts/col-6.html">
+                        <button type="button" class="btn btn-sm btn-outline-success shadow-none">Read</button>
+  
+                      </a>
+                  </div>
+                  
+                 
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            
+          </div>
+        </div>
+      </div>
+     
+      
+      <div class="row g-5">
+        <div class="col-md-8">
+          <h3 class="pb-4 mb-4 border-bottom fw-bold fs-1">
+            Features
+          </h3>
+    
+          <div class="container mt-4">
+            <div class="row">
+              <div class="col-md-12">
+                <h1>Layla taps into AI and creator content to build a travel recommendation app</h1>
+                <p>Published on: <time datetime="12-11-2023">12th Nov 2023</time></p>
+                <img src="https://techcrunch.com/wp-content/uploads/2023/11/Germany-118-feat.jpg?w=1390&crop=1" alt="img" class="img-fluid" style="max-width: 100%; height: auto;">
+              <p class="mt-3">
+
+                  <strong class="fw-bold fs-4 ps-4">M</strong>any companies are trying to use AI chatbots (beyond ChatGPT) in different industries — especially in the consumer sector. Berlin-based startup Layla is banking on this trend to build an eponymous chatbot (along with an app) that suggests new travel destinations. It can also help them when it comes to bookings.
+                </p>
+                <p>
+                  The company was started by Jeremy Jauncey, the founder of travel agency Beautiful Destinations<span class="text-secondary"> with millions of followers across social media platforms, and Saad Saeed, who was the co-founder of grocery delivery service Flink ...............................
+                  </span>
+                </p>
+                
+                <div class="d-flex flex-column text-danger fw-bold">
+                  <p class="mx-auto">Sign up to access the full article.</p>
+                  <button class="btn btn-success w-auto mx-auto">Sign Up</button>
+              </div>
+              
+              </div>
+              
+            </div>
+          </div>
+        
+    
+        </div>
+    
+        <div class="col-md-4 p-0">
+          <div class="position-sticky p-0 m-0" style="top: 2rem;">
+            <div class="p-4 mb-3rounded">
+              <h4 class="fw-bold p-2 bg-success mb-3 ">About</h4>
+              <p class="mb-0 ps-3"><strong>Project :</strong>  Static Blog App </p>
+              <p class="mb-0 ps-3"><strong>Submitted By :</strong> Mohamed Dilshad </p>
+
+            </div>
+    
+            
+    
+            <div class="p-4">
+              <h4 class="fw-bold pb-2  p-2 bg-success ">Elsewhere</h4>
+              <ol class="list-unstyled d-flex d-md-block ps-3">
+                  <li class="py-2">
+                    <a href="#" class="mb-0 text-dark ps-3">
+                      <i class="bi bi-github"></i>
+                    </a>
+                  </li>
+                  <li class="py-2">
+                    <a href="#" class="mb-0 text-dark ps-3 ">
+                      <i class="bi bi-twitter-x"></i>
+                    </a>
+                  </li>
+                  <li class="py-2">
+                    <a href="#" class="mb-0 text-success ps-3">
+                      <i class="bi bi-whatsapp"></i>
+                  </a>
+                </li>
+                <li class="py-2">
+                  <a href="#" class="mb-0 text-primary ps-3 ">
+                    <i class="bi bi-facebook"></i>
+                  </a>
+                </li>
+                <li class="py-2">
+                  <a href="#" class="mb-0 text-info ps-3 ">
+                    <i class="bi bi-linkedin"></i>
+                  </a>
+                </li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+    </main>
+    
+    <footer class="bg-dark text-light py-4  position-relative">
+       
+      <div class="container">
+       
+          <p class="text-center align-items-center m-0">&copy; All Rights Reserved : 2023</p>
+          <a href="#" class="text-success"><i class="bi bi-arrow-bar-up
+              position-absolute p-1 fs-3" style="bottom: 15px; right: 30px;"></i></a>
+           
+        
+    </div>
+   
+     
+      
+    </footer>
+  
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2 .9.2 /dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2 /dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+  </body>
+</html>
