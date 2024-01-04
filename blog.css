@@ -34,9 +34,9 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Keyframes for blink effect */
 @keyframes blink {
-  0% { background-color: transparent; } /* Start with transparent */
-  50% { background-color: rgb(31, 175, 201); clor: white; } /* Change to desired color */
-  100% { background-color: transparent; } /* Back to transparent */
+  0% { background-color: transparent; } 
+  50% { background-color: rgb(31, 175, 201); clor: white; } 
+  100% { background-color: transparent; } 
 }
 
 /* Apply animation to the button */
