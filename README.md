@@ -1,4 +1,4 @@
-# Blog using Bootstrap Framework 
+# Blog using Bootstrap Framework & Form Validation using JavaScript
 
 This project is a static and responsive blog created using Bootstrap. It leverages HTML, CSS, and Bootstrap to deliver a visually appealing and user-friendly blog experience.
 
