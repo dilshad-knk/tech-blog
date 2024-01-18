@@ -72,11 +72,9 @@ function validatePassword() {
     }
     
   }
-
- 
-
   return errorMessages.length == 0 && userVerifiedPassword !== "" && userVerifiedPassword === userPassword;
 }
+
 
 form.addEventListener("submit", function validateForm(e) {
   e.preventDefault();
